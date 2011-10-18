@@ -1,0 +1,13 @@
+// $Id$
+// vim:ft=javascript
+
+// If your extension references something external, use ARG_WITH
+// ARG_WITH("libfetion", "for libfetion support", "no");
+
+// Otherwise, use ARG_ENABLE
+// ARG_ENABLE("libfetion", "enable libfetion support", "no");
+
+if (PHP_LIBFETION != "no") {
+	EXTENSION("libfetion", "libfetion.c");
+}
+
