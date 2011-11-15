@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent" android:layout_height="fill_parent"
+	android:background="@drawable/light_bg">
+
+	<TextView android:id="@+id/idshow" android:layout_marginTop="50dip"
+		android:layout_centerHorizontal="true" android:layout_height="wrap_content"
+		android:layout_width="wrap_content" android:textSize="25dip"
+		android:background="@null" android:textColor="@color/dark_blue"
+		android:text="当前用户: 无" />
+
+	<TableLayout android:orientation="vertical"
+		android:layout_centerInParent="true"
+		android:layout_marginTop="70dip" android:layout_width="wrap_content"
+		android:layout_height="wrap_content" android:paddingTop="5dip"
+		android:layout_centerHorizontal="true">
+		<TableRow>
+			<Button android:layout_width="wrap_content" android:id="@+id/promiss"
+				android:layout_height="wrap_content" android:background="@drawable/btn_left_up">
+			</Button>
+			<Button android:layout_width="wrap_content" android:id="@+id/baoliao"
+				android:layout_height="wrap_content" android:background="@drawable/btn_right_up">
+			</Button>
+		</TableRow>
+		<TableRow>
+			<Button android:layout_width="wrap_content" android:id="@+id/phonograph"
+				android:layout_height="wrap_content" android:background="@drawable/btn_left_down">
+			</Button>
+			<Button android:layout_width="wrap_content" android:id="@+id/reference"
+				android:layout_height="wrap_content" android:background="@drawable/btn_right_down">
+			</Button>
+		</TableRow>
+	</TableLayout>
+
+	<!-- Bottom Bar -->
+	<FrameLayout android:layout_width="fill_parent"
+		android:layout_height="wrap_content" android:orientation="horizontal"
+		android:padding="4dip" android:layout_alignParentBottom="true">
+		<LinearLayout android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:orientation="horizontal"
+			android:layout_gravity="left" android:padding="4dip"
+			android:layout_marginLeft="10dip">
+			<ImageView android:layout_width="wrap_content" android:id="@+id/img_setting_2"
+				android:layout_height="wrap_content" android:src="@drawable/ic_setting" />
+			<Button android:layout_width="wrap_content" android:textColor="@color/dark_blue"
+				android:background="@null" android:text="setting" android:id="@+id/btn_setting_2"
+				android:layout_height="wrap_content" android:layout_gravity="center_vertical"
+				android:padding="4dip" android:textSize="20dip" />
+
+		</LinearLayout>
+
+		<LinearLayout android:layout_width="wrap_content"
+			android:layout_height="wrap_content" android:orientation="horizontal"
+			android:layout_gravity="right" android:padding="4dip"
+			android:layout_marginRight="10dip">
+			<Button android:id="@+id/btn_about_2" android:layout_width="wrap_content"
+				android:layout_height="wrap_content" android:text="about"
+				android:background="@null" android:textColor="@color/dark_blue"
+				android:layout_gravity="center_vertical" android:padding="4dip"
+				android:textSize="20dip" />
+			<ImageView android:layout_width="wrap_content" android:id="@+id/img_about_2"
+				android:layout_height="wrap_content" android:src="@drawable/ic_about" />
+
+		</LinearLayout>
+	</FrameLayout>
+</RelativeLayout>
