@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:gravity="center_vertical"
+	>
+	<TextView
+		android:id="@+id/reference_text"
+		android:textSize="20sp"
+		android:textColor="@color/dark_blue"
+		android:layout_width="190dip"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_marginLeft="8dip"
+		android:layout_marginTop="4dip"
+		/>
+	<Button android:layout_width="110dip" android:id="@+id/reference_button"
+		android:layout_height="wrap_content" android:text="声博发送"
+		android:background="@drawable/btn_selector" android:textSize="20dip"
+		android:textColor="@color/white" android:layout_alignParentRight="true"
+		android:layout_marginRight="8dip" android:layout_marginTop="8dip"
+		android:layout_marginBottom="8dip"/>
+</RelativeLayout>
