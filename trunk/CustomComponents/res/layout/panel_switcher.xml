@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- define a panel swticher with 3 panel -->
+
+    <scut.attmore.ui.view.PanelSwitcher
+        xmlns:scut="http://schemas.android.com/apk/res/scut.attmore.ui"
+        android:id="@+id/panelSwitcher"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+        <include layout="@layout/panel_swticher_panel1" />
+
+        <include layout="@layout/panel_swticher_panel2" />
+
+        <include layout="@layout/panel_swticher_panel3" />
+    </scut.attmore.ui.view.PanelSwitcher>
+
+</LinearLayout>

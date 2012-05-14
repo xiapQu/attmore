@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- define a attribute in a custom component RadioButtonEx named 'value' -->
+	<declare-styleable name="RadioButtonEx">
+	    <attr name="value" format="string"/>
+	</declare-styleable>
+</resources>

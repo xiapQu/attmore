@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="tips">使用API发送高电平时钟方波？</string>
+    <string name="app_name">AudioTestOne</string>
+
+</resources>

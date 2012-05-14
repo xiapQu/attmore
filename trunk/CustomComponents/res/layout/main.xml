@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!-- you must define a namespace -->
+
+    <scut.attmore.ui.view.RadioButtonEx
+        xmlns:scut="http://schemas.android.com/apk/res/scut.attmore.ui"
+        android:id="@+id/radioButtomEx"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="RadioButtomEx"
+        android:textSize="18sp"
+        scut:value="true" />
+	<Button android:id="@+id/btnDashborad"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:text="TempDashboard"
+	    />
+</LinearLayout>
